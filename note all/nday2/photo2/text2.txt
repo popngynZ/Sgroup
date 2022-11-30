@@ -1,0 +1,16 @@
+   placeholder: chữ ẩn
+ label nối
+form hành động submit
+CSS : cascading style sheet
+inline
+internal
+external:rel khai báo kiểu file hắn có nhiều thuộc tính khác nhau 
+select toàn bộ
+vd : *{color=}
+
+
+
+content
+padding // từ phần chữ đến viền đen \\tăng koảng cách từ phần content  đến border // đen đến xanh lá
+border
+magin viền tới khung wed // khoảng cách của box này vs box khác // dev tới dev khác cùng cấp
