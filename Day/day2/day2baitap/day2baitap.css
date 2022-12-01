@@ -1,8 +1,26 @@
-h2.number
-{
-    color:orange;
-    font-size: 30px;
-}
-p.unnumber{
-    font-size: 18px;
-}
+
+.box0{height: 100px;
+    width: 600px;
+    color: black;
+   
+
+   
+    }
+.box1{height: 40px;
+    width: 100px;
+    color:orangered;
+
+    margin-left: 60px;
+    float: left;
+    
+    font-size: 40px;
+    }
+ .box2{height: 40px;
+        width: 100px;
+        color: black;
+      font-size: 17px;
+        margin-left: 60px;
+        
+        float :left;
+        }
+     
