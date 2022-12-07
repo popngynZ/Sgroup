@@ -1,0 +1,76 @@
+*{@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');}
+*{font-family: 'Roboto', sans-serif;}
+
+.box0 {
+  height: 100px;
+  width: 600px;
+  color: black;
+
+
+
+}
+
+.box1 {
+  height: 40px;
+  width: 100px;
+  color: orangered;
+
+  margin-left: 60px;
+  float: left;
+
+  font-size: 40px;
+}
+
+.box2 {
+  height: 40px;
+  width: 100px;
+  color: black;
+  font-size: 17px;
+  margin-left: 60px;
+
+  float: left;
+}
+
+.boxj{
+  width: 60px;
+  height: 60px;
+  background-color: bisque;
+
+  font-size: 30px;  
+display: flex;
+align-items: center;
+justify-content: center;      
+}
+.boxiconvsj{
+  display: flex;
+ 
+}
+.boxicon{
+  margin-left:300px ;
+  margin-top:20px ;
+
+}
+.boxblack{
+  width: 500px;
+  height: 350px;
+  background-color:black;
+text-align: center;
+
+}
+.boxcam{
+    width: 120px;
+    height: 40px;
+border-style:solid ;    
+border-color:orange ;
+background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border-radius: 30%;
+
+
+
+  
+  }
+
+
