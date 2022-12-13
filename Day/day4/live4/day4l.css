@@ -1,0 +1,16 @@
+
+.box {
+    width: 500px;
+    height: 500px;
+
+    background-image: url(https://images.drive.com.au/caradvice/image/private/c_fill,f_auto,g_auto,h_675,q_auto:eco,w_1200/r0rhd4ak8hxspypvptnr);
+    background-repeat: no-repeat;
+    background-size: 475px 475px;
+    /* border: 20px solid purple; */
+    padding: 20px ;
+    background-color: black;
+    
+    box-sizing: border-box;
+  background-position: center;
+ 
+} 

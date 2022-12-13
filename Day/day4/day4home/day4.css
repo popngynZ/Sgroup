@@ -1,0 +1,16 @@
+.box{
+    background: green;
+    height: 300px;
+    width: 500px;
+
+    background-image: url(https://th.bing.com/th/id/R.b1cd80578296e45b0dec1f4c816be790?rik=7uGq10%2bweFL9qA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-Jx9XGHm-wog%2fT9C77GL4w-I%2fAAAAAAAACBs%2flNZnx7PfwOE%2fs1600%2fCat_Tom_Looney_Tones_HD_Cartoon_Wallpaper-cartoonwallbase.blogspot.co.jpg&ehk=7h2N%2bVNOVVb272qaQ7H5oDmfyN20JyvnaVGKfCrMiQM%3d&risl=&pid=ImgRaw&r=0);
+background-repeat: no-repeat;
+    background-size: 450px 250px;
+
+    border: 100px;
+  background-position: center;
+  background-origin: padding-box;
+
+    
+  box-sizing: border-box;
+} 
