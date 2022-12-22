@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #warpper {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul.list-person {
+            display: flex;
+        }
+
+        ul.list-person li {
+            max-width: 1000px;
+            overflow: hidden; /* an zom*/
+        }
+
+        ul.list-person li a img {
+            max-width: 100%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        ul.list-person li:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+    
+    <div id="warpper">
+       <ul class="list-person">
+        <li><a href=""><img src="https://tympanus.net/Development/HoverEffectIdeas/img/12.jpg" alt=""></a></li>
+        <li><a href=""><img src="https://tympanus.net/Development/HoverEffectIdeas/img/13.jpg" alt=""></a></li>
+       </ul>
+    </div>
+</body>
+
+</html>

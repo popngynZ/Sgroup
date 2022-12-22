@@ -6,8 +6,17 @@ position: relative;
 box-sizing: border-box;
 /* background-color: aqua; */
 
+
+
+}
+img{transform: 100%;
+    transition: all 0.3s ease-in-out;
+max-width: 100%;}
+img:hover{
+    transform: scale(2);
 }
 
+}
 .box1title{
 
 position: relative;
@@ -25,6 +34,10 @@ z-index: 3;
     z-index: 2;
 
 }
+/* .trantion{
+    transform: 100%;
+    transition: all 0.3s ease-in-out;
+} */
 
 
 h2{margin: 0;}
