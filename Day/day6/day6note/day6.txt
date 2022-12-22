@@ -1,0 +1,4 @@
+  animation-duration: 4s; 1s chuyển 1 màu
+2. animation-name tác dụng xác định thành phần sẽ thực thi animation nào.
+3. animation-duration :thiết lập khoảng thời gian thực thị 1 chuyển động animation
+4. animation-timing-function : xác định tốc độ chuyển động của một animation sẽ như thế nào.
