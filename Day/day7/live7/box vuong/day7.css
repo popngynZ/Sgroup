@@ -1,0 +1,33 @@
+
+  .box {
+    display: flex;
+    width: 100%;
+    height: 400px;
+   justify-content: center;
+   align-items: center;
+    background-color:orange;
+}
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 255, 0);
+    /* transform: rotateX(360deg); */
+
+    /* position: relative; */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+/* lap */
+}
+
+
+@keyframes example {
+0% { transform: rotateX(0deg);}
+25%{transform: rotatex(90deg);}
+50% { transform: rotatey(0deg);}  
+75%{transform: rotatey(90deg);} 
+
+}
