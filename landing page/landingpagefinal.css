@@ -5,23 +5,27 @@ body {
 * {
     margin: 0;
     padding: 0;
-    color:  #bab8b8;
-    text-decoration:none;
+    color: #bab8b8;
+    text-decoration: none;
 }
+
 #taskbar {
-background-color: #1d1d1f;
- max-width: 100%;
- margin: 0 px;
- display: flex;
- justify-content: center;
- list-style: none;
- 
+    background-color: #0000;
+    max-width: 100%;
+    margin: 0 px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
 }
+
 #taskbar li {
     display: block;
     padding: 18px 20px;
+    font-family: 'Poppins', sans-serif;
 }
-#taskbar li :hover{
+
+#taskbar li :hover {
     color: #f5f5f7;
 }
 
@@ -37,14 +41,18 @@ background-color: #1d1d1f;
     display: flex;
     justify-content: center;
     /* justify-content: space-between; */
-    
+
 }
-.titlescrollbar span{
+
+.titlescrollbar span {
+    /* macbook */
     display: block;
     position: relative;
     left: -20px;
+    font-family: 'Poppins', sans-serif;
 }
-.titlescrollbar_INTRODUCE{
+
+.titlescrollbar_INTRODUCE {
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -52,28 +60,36 @@ background-color: #1d1d1f;
     padding: 0;
     margin-left: 560px;
 }
+
 .titlescrollbar_INTRODUCE li {
-display: block;
-padding-top: 20px;
-margin-right: 30px;
+    display: block;
+    padding-top: 20px;
+    margin-right: 30px;
 }
-.titlescrollbar_INTRODUCE--button p{
+
+.titlescrollbar_INTRODUCE a:hover {
+    color: #0071e3;
+}
+
+.titlescrollbar_INTRODUCE--button p {
     display: flex;
     width: 45px;
-        height: 23px;
-      margin-top: 20px;
-    background-color:#0071e3;
+    height: 23px;
+    margin-top: 18px;
+    background-color: #0071e3;
     color: #f5f5f7;
     font-size: 12px;
-        
-        align-items: center;
-        justify-content: center;    
-        border-radius: 30px/30px;
-        /* link fix cái hình vuông bo 
-        CSS - 07 - Tạo góc bo tròn của khung viền hình chữ nhật (Border Radius)
-     */  
-    }
 
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px/30px;
+    /* link fix cái hình vuông bo 
+        CSS - 07 - Tạo góc bo tròn của khung viền hình chữ nhật (Border Radius)
+     */
+}
+.titlescrollbar_INTRODUCE--button p:hover {
+    opacity: 0.9;
+}
 .headEducationStore {
     max-width: 100%;
     height: 52px;
@@ -82,9 +98,24 @@ margin-right: 30px;
     justify-content: center;
     align-items: center;
 }
-.headEducationStore a{
+
+
+.headEducationStore a {
     color: #0071e3;
 }
-.headEducationStore a:hover{
-    text-decoration:underline;
+.headEducationStore a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+
+.about video{
+  
 }
